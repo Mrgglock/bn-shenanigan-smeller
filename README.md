@@ -8,7 +8,7 @@ This program was made in Node.js (version 12.19.0).
 
 2) Run `node bnanalysis.js` to obtain a file `bns.json` and `maps.json`.\
 This is the data processing step, involving many GET requests from the website to gain information such as beatmap nominators, their IDs, all the maps that they nominated, etc.\
-Open the source code of `bnanalysis.js` to see how the data is processed.\
+Open the source code of `bnanalysis.js` to see how the data is processed.
 
 3) Run `node outprocessing.js` to do some analysis on these obtained files.\
 Open the source code of `outprocessing.js` to see what analysis is being done.
