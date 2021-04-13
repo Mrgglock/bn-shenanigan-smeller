@@ -8,7 +8,7 @@ This program was made in Node.js (version 12.19.0).
 
 2) Run `npm install node-fetch`.
 
-3) Input your own session cookie to log in to https://bn.mappersguild.com/.
+3) Input your own session cookie in `cookie.json` as a string to log in to https://bn.mappersguild.com/.
 
 4) Run `node bnanalysis.js` to obtain a file `bns.json` and `maps.json`.\
 This is the data processing step, involving many GET requests from the website to gain information such as beatmap nominators, their IDs, all the maps that they nominated, etc.\
