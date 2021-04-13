@@ -12,7 +12,6 @@ const session = JSON.parse(fs.readFileSync('cookie.json'));
   // This object has keys `map name the mapper made` and the value is an array of nominators involved in pushing that map name.
   let creatorMaps = {};
   // Fetch each nominator's nominations
-  let n = [];
   console.log("Fetching everyone's nominations...");
   for (let [id, nominator] of Object.entries(nominatorIDs)) {
     console.log("Loading " + nominator + "...");
